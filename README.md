@@ -44,18 +44,19 @@ src/
   dom2app/            # Domain logic and Database interfaces
     reporting/        # Report exporters (HTML, Markdown, Text)
 lib/                  # External JAR libraries (Apache Commons, JFreeChart)
-README.md ```
+README.md
+```
 
 ## How to Run
 
-    Clone the Repository:
+ 1) Clone the Repository:
     git clone https://github.com/your-username/NaturalDisasters-Analysis.git
 
-    Import into Eclipse or your preferred IDE:
+ 2) Import into Eclipse or your preferred IDE:
     Go to File -> Import -> Existing Projects into Workspace.
 
-    Configure Build Path:
+ 3) Configure Build Path:
     Ensure all JAR files in the lib directory are added to the project Java Build Path.
 
-    Launch Application:
+ 4) Launch Application:
     Run app.gui.AppStarter.java as a Java Application.
